@@ -30,8 +30,9 @@ const CalculatorSum = () => {
 
     return (<>
     <form onSubmit={handleSubmit}>
+        <h1>Sum Calculator</h1>
         <input type="number" value={inputfild} onChange={handleInput} />
-        <div>Sum: {sum}</div>
+        <p>Sum: {sum}</p>
     </form>
     </>)
 }
