@@ -23,7 +23,7 @@ const CalculatorSum = () => {
         e.preventDefault();
         const parsedNumber = parseInt(inputfild, 10);
         if(!isNaN(parsedNumber)) {
-            setNumbers([numbers, parsedNumber]);
+            setNumbers([...numbers, parsedNumber]);
             setInputfild('');
         }
     }
