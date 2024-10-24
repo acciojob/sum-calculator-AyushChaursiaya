@@ -7,7 +7,8 @@ const CalculatorSum = () => {
 
 
     useEffect(() => {
-        const sumCalculator = () => {
+        const sumCalculator = async () => {
+            await new Promise((resolve) => setTimeout(resolve, 100));
             const total = numbers.reduce((acc, prev) => acc + prev, 0);
             setSum(total);
         }
