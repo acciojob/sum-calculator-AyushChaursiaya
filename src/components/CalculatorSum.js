@@ -24,7 +24,7 @@ const CalculatorSum = () => {
         const parsedNumber = parseInt(inputfild, 10);
         if(!isNaN(parsedNumber)) {
             setNumbers([...numbers, parsedNumber]);
-            setInputfild('');
+            setInputfild('' );  
         }
     }
  
