@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const CalculatorSum = () => {
     const [currentCount, setCurrentCount] = useState(''); // Tracks the current input value
