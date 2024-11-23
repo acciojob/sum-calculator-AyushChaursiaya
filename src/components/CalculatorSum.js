@@ -26,7 +26,7 @@ const CalculatorSum = () => {
 
     return (
         <div style={{ textAlign: 'center', marginTop: '50px' }}>
-            <h1>Sum Calculator with useEffect</h1>
+            <h1>Sum Calculator</h1>
             <input
                 type="number"
                 value={currentCount}
