@@ -25,12 +25,14 @@ const CalculatorSum = () => {
     };
 
     return (
-        <div>
+        <div style={{ textAlign: 'center', marginTop: '50px' }}>
+            <h1>Sum Calculator with useEffect</h1>
             <input
                 type="number"
                 value={currentCount}
                 onChange={handleChangeCount}
                 onClick={handleCount}
+                style={{ padding: '5px', fontSize: '16px' }}
             />
             <p>Sum: {count}</p>
         </div>
